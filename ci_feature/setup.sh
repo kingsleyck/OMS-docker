@@ -13,7 +13,7 @@ wget https://dockerprovider.blob.core.windows.net/omsagent/omsagent-1.6.0-155.un
 
 #create file to disable omi service startup script
 touch /etc/.omi_disable_service_control
-wget https://dockerprovider.blob.core.windows.net/cifeature/docker-cimprov-2.0.0-4.universal.x86_64.sh
+wget https://rashmi.blob.core.windows.net/seg-fault-fix/docker-cimprov-2.0.0-4.universal.x86_64.sh
 chmod 775 $TMPDIR/*.sh
 
 #Extract omsbundle
